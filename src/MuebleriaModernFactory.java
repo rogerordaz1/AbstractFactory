@@ -5,7 +5,7 @@ import CoffeeTable.MordernCoffeeTable;
 import Sofa.ISofa;
 import Sofa.ModernSofa;
 
-public class MuebleriaModernFactory extends MuebleriaAbstractFactory {
+public class MuebleriaModernFactory implements MuebleriaAbstractFactory {
     @Override
     public IChair createChair() {
         IChair chair = new ModernChair();

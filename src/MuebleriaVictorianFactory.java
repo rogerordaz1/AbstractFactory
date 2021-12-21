@@ -5,7 +5,7 @@ import CoffeeTable.VictorianCoffeeTable;
 import Sofa.ISofa;
 import Sofa.VictorianSofa;
 
-public class MuebleriaVictorianFactory extends MuebleriaAbstractFactory {
+public class MuebleriaVictorianFactory implements MuebleriaAbstractFactory {
     @Override
     public IChair createChair() {
         IChair chair = new VictorianChair();
